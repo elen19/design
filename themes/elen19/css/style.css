@@ -105,6 +105,10 @@ img {
     max-width: 100%;
 }
 
+img[alt=ElisBild]{
+    width: 400px;
+}
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
