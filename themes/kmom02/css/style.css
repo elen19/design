@@ -6460,9 +6460,15 @@ readers do not read off random characters that represent icons */
 * {
   font-family: "Roboto", sans-serif;
   color: #000;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -6470,6 +6476,6 @@ body {
   background-color: #6ada66;
 }
 
-img[alt=ElisBild] {
-  width: 400px;
+.imgElis {
+  width: 25%;
 }
