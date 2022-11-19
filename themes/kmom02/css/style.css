@@ -6457,6 +6457,83 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.technology {
+  display: grid;
+}
+
+.techno {
+  grid-column: span 2;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.content-tech {
+  grid-column: span 1;
+}
+
+.links {
+  grid-column: span 1;
+}
+
+.links a {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 480px) {
+  .techno {
+    grid-column: 1;
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+}
+.technologies {
+  display: grid;
+}
+
+.technologies h1 {
+  grid-column: span 3;
+}
+
+.grid1 {
+  grid-column: span 1;
+  height: 120px;
+  border: 2px solid black;
+}
+
+.grid2 {
+  grid-column: span 2;
+  height: 120px;
+  border: 2px solid black;
+}
+
+.grid3 {
+  grid-column: span 3;
+  height: 120px;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 480px) {
+  .technologies h1 {
+    grid-column: span 1;
+  }
+  .grid1 {
+    grid-column: span 1;
+  }
+  .grid2 {
+    grid-column: span 1;
+  }
+  .grid3 {
+    grid-column: span 1;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
   color: #000;
@@ -6476,6 +6553,6 @@ body {
   background-color: #6ada66;
 }
 
-.imgElis {
+.img-elis {
   width: 25%;
 }

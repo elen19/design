@@ -1,0 +1,38 @@
+.technology {
+    display: grid;
+}
+
+.techno {
+    grid-column: span 2;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.content-tech {
+    grid-column: span 1;
+}
+
+.links {
+    grid-column: span 1;
+}
+
+.links a {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+@media screen and (max-width: 480px) {
+    .techno {
+        grid-column: 1;
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+}

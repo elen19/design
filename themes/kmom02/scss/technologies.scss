@@ -1,0 +1,43 @@
+.technologies {
+    display: grid;
+}
+
+.technologies h1 {
+    grid-column: span 3;
+}
+
+.grid1 {
+    grid-column: span 1;
+    height: 120px;
+    border: 2px solid $font-color;
+}
+
+.grid2 {
+    grid-column: span 2;
+    height: 120px;
+    border: 2px solid $font-color;
+}
+
+.grid3 {
+    grid-column: span 3;
+    height: 120px;
+    border: 2px solid $font-color;
+}
+
+@media screen and (max-width: 480px) {
+    .technologies h1 {
+        grid-column: span 1;
+    }
+
+    .grid1 {
+        grid-column: span 1;
+    }
+
+    .grid2 {
+        grid-column: span 1;
+    }
+
+    .grid3 {
+        grid-column: span 1;
+    }
+}
