@@ -6537,9 +6537,7 @@ pre {
 * {
   font-family: "Roboto", sans-serif;
   color: #000;
-  text-align: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  text-align: center;
 }
 
 h1,
@@ -6559,8 +6557,6 @@ body {
   width: 25%;
 }
 
-.analyze-pic {
-  width: 75%;
-  margin-left: 12.5%;
-  border: 1px solid black;
+.main {
+  background-color: yellow;
 }

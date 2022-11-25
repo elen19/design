@@ -18,9 +18,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 * {
     font-family: $font-text;
     color: $font-color;
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align: center;
 }
 
 h1,
@@ -40,8 +38,6 @@ body {
     width: 25%;
 }
 
-.analyze-pic {
-    width: 75%;
-    margin-left: 12.5%;
-    border: 1px solid black;
+.main {
+    background-color: yellow;
 }
