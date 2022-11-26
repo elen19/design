@@ -17,8 +17,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 * {
     font-family: $font-text;
-    color: $font-color;
-    text-align: center;
+    color: $font-alternative-color;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: $background-alternative-color;
 }
 
 h1,
@@ -30,14 +33,24 @@ h6 {
     font-family: $font-header;
 }
 
+.nav a {
+    color: $font-alternative-color;
+}
+
 body {
-    background-color: $background-color;
+    background-color: $background-alternative-color;
+}
+
+code {
+    background-color: $background-alternative-color;
 }
 
 .img-elis {
     width: 25%;
 }
 
-.main {
-    background-color: yellow;
+.analyze-pic {
+    width: 75%;
+    margin-left: 12.5%;
+    border: 1px solid black;
 }

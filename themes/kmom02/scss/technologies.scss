@@ -9,19 +9,19 @@
 .grid1 {
     grid-column: span 1;
     height: 120px;
-    border: 2px solid $font-color;
+    border: 2px solid $accent-color;
 }
 
 .grid2 {
     grid-column: span 2;
     height: 120px;
-    border: 2px solid $font-color;
+    border: 2px solid $accent-color;
 }
 
 .grid3 {
     grid-column: span 3;
     height: 120px;
-    border: 2px solid $font-color;
+    border: 2px solid $accent-color;
 }
 
 @media screen and (max-width: 480px) {
