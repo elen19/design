@@ -43,6 +43,12 @@ body {
 
 code {
     background-color: $background-alternative-color;
+    color: $font-alternative-color;
+}
+
+pre {
+    background-color: $background-alternative-color;
+    color: $font-alternative-color;
 }
 
 .img-elis {
@@ -52,5 +58,5 @@ code {
 .analyze-pic {
     width: 75%;
     margin-left: 12.5%;
-    border: 1px solid black;
+    border: 1px solid #000;
 }

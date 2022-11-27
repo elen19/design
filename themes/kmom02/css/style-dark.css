@@ -6540,7 +6540,7 @@ pre {
   text-align: left;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #000000;
+  background-color: #000;
 }
 
 h1,
@@ -6557,11 +6557,17 @@ h6 {
 }
 
 body {
-  background-color: #000000;
+  background-color: #000;
 }
 
 code {
-  background-color: #000000;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+
+pre {
+  background-color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .img-elis {
@@ -6571,5 +6577,5 @@ code {
 .analyze-pic {
   width: 75%;
   margin-left: 12.5%;
-  border: 1px solid black;
+  border: 1px solid #000;
 }
