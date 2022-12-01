@@ -23,7 +23,7 @@ Resultat
 -----------------------
 
 ### Blocket
-![Blocket](%assets_url%/img/blocket.png) {.analyze-pic}
+![Blocket](../image/blocket.png?save-as=jpg) {.analyze-pic}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #F71414">
@@ -44,8 +44,8 @@ Typsnittet på sidan är blocket-sans som är en san-serif. Rubrikerna har en fe
 Blocket verkar ha uppnått den färgstil de vill ha. De har med sin igenkännande röda accentfärg men sidan i sig är modern med gråskalan som sina basfärger.
 
 ### SVT
-![SVT](%assets_url%/img/svt.png) {.analyze-pic}
-![SVT Sport](%assets_url%/img/svt1.png) {.analyze-pic}
+![SVT](../image/svt.png?save-as=jpg) {.analyze-pic}
+![SVT Sport](../image/svt1.png?save-as=jpg) {.analyze-pic}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #E02E3D">
@@ -65,8 +65,8 @@ Sidan använder sig av typsnittet Publik, Helvetica ,Arial , Nimbus Sans L, Bits
 SVT har den färgstil och typografi som de önskar då sidan är lätt att läsa och läsaren ser skillnad på vad som är nyhet, sport och SVT play.
 
 ### BTH
-![BTH](%assets_url%/img/bth.png) {.analyze-pic}
-![BTH nyheter](%assets_url%/img/bth1.png) {.analyze-pic}
+![BTH](../image/bth.png?save-as=jpg) {.analyze-pic}
+![BTH nyheter](../image/bth1.png?save-as=jpg) {.analyze-pic}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #055064">
