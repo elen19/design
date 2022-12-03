@@ -6520,6 +6520,17 @@ pre {
   border: 2px solid #414141;
 }
 
+.img-grid1 {
+  grid-column: span 1;
+  display: block;
+  margin: auto;
+}
+
+.img-grid3 {
+  grid-column: span 3;
+  text-align: center;
+}
+
 @media screen and (max-width: 480px) {
   .technologies h1 {
     grid-column: span 1;
@@ -6531,6 +6542,9 @@ pre {
     grid-column: span 1;
   }
   .grid3 {
+    grid-column: span 1;
+  }
+  .img-grid3 {
     grid-column: span 1;
   }
 }
