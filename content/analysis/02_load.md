@@ -4,7 +4,7 @@ Description: Page about colors
 ---
 
 
-Titel på rapporten
+Load
 =======================
 Syftet med rapporten är att undersöka hur snabbt hemsidor laddar samt om det går att förändra något särskillt innehåll för att förbättra laddningstiden.
 
