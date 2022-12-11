@@ -6569,11 +6569,21 @@ body {
   background-color: #f5fff5;
 }
 
-.img-elis {
-  width: 25%;
+.article {
+  width: 50%;
+  margin-left: 25%;
+  border: 1px solid #000;
+  padding: 10px;
 }
 
-.analyze-pic {
+.img-elis {
+  width: 25%;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.article .analyze-pic {
   width: 75%;
   margin-left: 12.5%;
   border: 1px solid #000;

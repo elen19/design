@@ -23,22 +23,22 @@ För varje webbplats mättes tre olika hemsidor. Hemsidan pagespeed, skapad av G
 Resultat
 -----------------------
 ### Alla mätvärden
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTo4pSz24wQmlEF7GCdM8P-q2L5kzcvqVHuN7DA3E6DN4voHaDyWcyy1gQTp1DlK1BwM5G_4Slk16om/pubhtml?widget=true&amp;headers=false" width="70%" height="300px"></iframe>
+<iframe title="Google sheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTo4pSz24wQmlEF7GCdM8P-q2L5kzcvqVHuN7DA3E6DN4voHaDyWcyy1gQTp1DlK1BwM5G_4Slk16om/pubhtml?widget=true&amp;headers=false" width="70%" height="300px"></iframe>
 
 ### BTH
-![BTH](../image/bth-load.png?save-as=jpg){.analyze.pic}
+![BTH](../image/bth-load.png?save-as=jpg){.analyze-pic}
 
 BTH:s största problem på mobil är baserad på JavaScript och CSS. Det finns onödig JavaScript som inte används optimalt vilket saktar ner laddningstiden. På datorn är det liknande prolbem, dock är servers första svarstid de som saktar ner mest. Det beror oftast på tema, pluginmoduler eller serverns prestanda.[^1]
 
 [^1]: https://developer.chrome.com/docs/lighthouse/performance/time-to-first-byte/
 
 ### SVT
-![SVT](../image/svt-load.png?save-as=jpg){.analyze.pic}
+![SVT](../image/svt-load.png?save-as=jpg){.analyze-pic}
 
 Problemet på SVT:s sida både mobilt och på datorn är att den laddar in onödig JavaScript. Ett sätt att lösa det på är att reducera JavaScript kod som inte används äverhuvudtaget eller vänta med att läsa in scripts tills när de är relevanta.
 
 ### Blocket
-![Blocket](../image/blocket.png?save-as=jpg){.analyze.pic}
+![Blocket](../image/blocket.png?save-as=jpg){.analyze-pic}
 
 Blocket fallar under samma problem som överstående. Det finns onödig JavaScript som körs och tar upp laddningstid.
 
